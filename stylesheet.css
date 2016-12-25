@@ -34,6 +34,52 @@ body {
   font-family: 'Lobster',cursive;
 }
 
+span {
+  animation: fade 10s infinite linear;
+}
+
+span#k {
+  animation-delay: 0s;
+}
+span#o {
+  animation-delay: 0.2s;
+}
+
+span#n {
+  animation-delay: 0.4s;
+}
+
+span#g {
+  animation-delay: 0.6s;
+}
+
+span#y {
+  animation-delay: 0.8s;
+}
+
+span#u {
+  animation-delay: 1s;
+}
+
+span#a {
+  animation-delay: 1.2s;
+}
+
+span#n2 {
+  animation-delay: 1.4s;
+}
+
+@keyframes fade {
+  0%
+    {color: white}
+  30%
+    {color: #1C1C1C}
+  70%
+    {color: white}
+  100%
+    {color: white}
+}
+
 .header-text {
   margin-bottom: 5em;
   position: absolute;
@@ -44,7 +90,7 @@ body {
 .header-headline {
   font-family: 'Oswald', sans-serif;
   margin: auto;
-  padding: 10px 30px;
+  padding: 20px 0px 0px 50px;
   text-align: left;
   width: 100%;
   font-size: 45px;

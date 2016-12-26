@@ -15,7 +15,6 @@ body {
 
 .header {
   background: url(img/yk.svg);
-  background-size: contain;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,7 +24,7 @@ body {
 
 .header:after {
   content: "";
-  background-image: linear-gradient(to bottom, transparent, rgba(0, 60, 35, 0.6));
+  background-image: linear-gradient(to bottom, transparent, rgba(30, 90, 200, 0.6));
   position: absolute;
   width: 100%;
   height: 100%;
@@ -35,7 +34,7 @@ body {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 5px;
+  margin: 10px;
   font-family: 'Lobster',cursive;
 }
 
@@ -77,8 +76,10 @@ span#n2 {
 @keyframes fade {
   0%
     {color: white}
-  30%
-    {color: #1C1C1C}
+  25%
+    {color: #161616}
+  350%
+    {color: #161616}
   70%
     {color: white}
   100%
@@ -109,15 +110,18 @@ span#n2 {
 .container{
   position: relative;
 	max-width: 800px;
-	margin: 5% auto;
+	margin: 10% auto;
 	padding: 20px;
 	overflow: hidden;
-	box-sizing: border-box;
 }
 
 .text-center{
-	text-align: center;
-	margin-bottom: 1em;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 10px 0 60px 0;
+  font-family: 'Lobster',cursive;
+  font-size: 50px;
 }
 
 .lightbox-gallery {

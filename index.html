@@ -3,10 +3,55 @@
   <head>
     <meta charset="utf-8">
     <title>KONG YUAN</title>
-    <link rel="stylesheet" href="stylesheet2.css">
+    <link rel="stylesheet" href="stylesheet.css">
 <link href="https://fonts.googleapis.com/css?family=Lobster|Oswald:400,700&amp;subset=latin-ext" rel="stylesheet">
   </head>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script>
+      // Create a lightbox
+      (function() {
+      var $lightbox = $("<div class='lightbox'></div>");
+      var $img = $("<img>");
+      var $caption = $("<p class='caption'></p>");
+
+      // Add image and caption to lightbox
+
+      $lightbox
+        .append($img)
+        .append($caption);
+
+      // Add lighbox to document
+
+      $('body').append($lightbox);
+
+      $('.lightbox-gallery img').click(function(e) {
+        e.preventDefault();
+
+        // Get image link and description
+        var src = $(this).attr("src");
+        var cap = $(this).attr("alt");
+
+        // Add data to lighbox
+
+        $img.attr('src', src);
+        $caption.text(cap);
+
+        // Show lightbox
+
+        $lightbox.fadeIn('fast');
+
+        $lightbox.click(function() {
+          $lightbox.fadeOut('fast');
+        });
+      });
+
+      }());
+      </script>
+
   <body>
+
+    <!--//////homepage///////-->
 
     <header class="header">
       <div class="header-logo">
@@ -19,21 +64,35 @@
       </div>
     </header>
 
-    <!-- portoflio-->
+    <!--//////portoflio///////-->
 
-    <div class="container">
-      <h2 class="text-center">Works</h2>
+    <div class="design-container">
+      <h2 class="design-title">Designs</h2>
       <div class="lightbox-gallery">
-        <div><img src="http://placehold.it/300/f1b702/fff&text=image1" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, quae, quam. Ut dolorum quia, unde dicta at harum porro officia obcaecati ipsam deserunt fugit dolore delectus quam, maxime nisi quo."></div>
-        <div><img src="http://placehold.it/300/d2f1b2/222&text=image2" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime accusamus officiis dignissimos doloribus consectetur harum eos sapiente optio aut minima."></div>
-        <div><img src="http://placehold.it/300/eee/000&text=image3" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates veritatis similique, amet, maiores soluta recusandae cupiditate, sed perspiciatis fugit minima, sunt dolores cum earum deserunt illo ipsum!"></div>
-        <div><img src="http://placehold.it/300/222/fff&text=image4" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque laudantium dignissimos tenetur eos unde quidem repellat officiis nemo laboriosam necessitatibus deleniti commodi quis aliquid est atque tempora aut, nihil!"></div>
-        <div><img src="http://placehold.it/300/b47f99/000&text=image5" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto minus consequatur soluta quaerat itaque, laboriosam quis a facilis, cumque, deleniti quas aperiam voluptate dolore. Enim nostrum sit eaque, porro eligendi illo placeat?"></div>
-        <div><img src="http://placehold.it/300/e1d400/000&text=image6" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi suscipit quam, id aliquam totam aperiam quas rem debitis voluptatem pariatur, illo accusamus facilis eius ipsa! Reprehenderit libero, quas iste repudiandae distinctio, quos dignissimos."></div>
+        <div><img src="https://johnorser.files.wordpress.com/2013/09/drawing-2-09-29-13-an.jpg" alt="Lorem"></div>
+        <div><img src="http://www.nicholashutcheson.com/drawing/quarry/granite1.jpg" alt="minima."></div>
+        <div><img src="http://www.widewalls.ch/ww-apps-lib/uploads/small-4-Drawing-pencil-on-paper-210x155cm-2012._o.jpg" alt="Lorem ipsum"></div>
+        <div><img src="http://25.media.tumblr.com/635800936a61a574e0f64b80ff035a95/tumblr_n085xbZFtY1swai75o1_500.jpg" alt="Lorem ipsum dolor sit ame tempora aut, nihil!"></div>
+        <div><img src="https://mhsartgallerymac.wikispaces.com/file/view/IMG_DRAW17.0187(1).jpg/249005807/594x430/IMG_DRAW17.0187(1).jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing eaque, porro eligendi illo placeat?"></div>
+        <div><img src="https://img0.etsystatic.com/000/0/5906351/il_570xN.339799876.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipismos."></div>
       </div>
     </div>
 
+    <!--//////BUCH///////-->
+  <div class="book-wrap">
+    <div class="book-container">
+      <h2 class="book-title">Book</h2>
+      <p class="book-text">poem and collage art collaborated with Mariia Raag</h2>
+      <div class="lightbox-gallery">
+        <div><img src="https://johnorser.files.wordpress.com/2013/09/drawing-2-09-29-13-an.jpg" alt="Lorem ipsum dolor sit amet, consere delectus quam, maxime nisi quo."></div>
+        <div><img src="http://www.nicholashutcheson.com/drawing/quarry/granite1.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipis aut minima."></div>
+        <div><img src="http://www.widewalls.ch/ww-apps-lib/uploads/small-4-Drawing-pencil-on-paper-210x155cm-2012._o.jpg" alt="Lorem ipsum!"></div>
+        <div><img src="http://25.media.tumblr.com/635800936a61a574e0f64b80ff035a95/tumblr_n085xbZFtY1swai75o1_500.jpg" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.tempora aut, nihil!"></div>
+        <div><img src="https://mhsartgallerymac.wikispaces.com/file/view/IMG_DRAW17.0187(1).jpg/249005807/594x430/IMG_DRAW17.0187(1).jpg" alt="Lorem ipsum dolor sit amet, consectetur adium sit eaque, porro eligendi illo placeat?"></div>
+        <div><img src="https://img0.etsystatic.com/000/0/5906351/il_570xN.339799876.jpg" alt="Lorem ipsum dolor sit amet, consecnissimos."></div>
+      </div>
+    </div>
+  </div>
 
-    </main>
   </body>
 </html>

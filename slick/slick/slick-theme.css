@@ -70,8 +70,8 @@
     font-size: 20px;
     line-height: 1;
 
-    opacity: .75;
-    color: white;
+    opacity: .90;
+    color: rgb(184,184,184);
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,7 +79,7 @@
 
 .slick-prev
 {
-    left: 18px;
+    left: 25px;
 }
 [dir='rtl'] .slick-prev
 {
@@ -97,7 +97,7 @@
 
 .slick-next
 {
-    right: 18px;
+    right: 25px;
 }
 [dir='rtl'] .slick-next
 {

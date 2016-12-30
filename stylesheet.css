@@ -221,6 +221,7 @@ span#n2 {
 
 .photo-container h2{
   width: 100%;
+  margin: 60px auto;
   text-align: center;
   position: absolute;
   z-index: 1;

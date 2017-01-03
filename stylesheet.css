@@ -177,7 +177,7 @@ span#n2 {
 .book-wrap{
     height: 100%;
     width: 100%;
-    background-color: pink;
+    background-color: #FFC7D7;
     position: relative;
 }
 
@@ -254,4 +254,31 @@ span#n2 {
   margin: auto;
   position: relative;
   width: 100%;
+}
+
+
+/*-----------videos--------------*/
+
+.video-wrap{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #47FF57;
+}
+
+.video-container {
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  padding: 50px 0 80px 0;
+  overflow: hidden;
+}
+
+.video-title {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 10px 0 10px 0;
+  font-family: 'Lobster',cursive;
+  font-size: 50px;
 }

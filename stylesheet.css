@@ -84,12 +84,8 @@ span#n2 {
   font-family: 'Oswald', sans-serif;
   margin: auto;
   padding: 20px 0px 0px 50px;
-  text-align: left;
-  width: 100%;
   font-size: 45px;
-  font-weight: 700;
   color: white;
-  border-radius: 0px;
 }
 
 /*PORTFOLIO*/
@@ -290,8 +286,24 @@ span#n2 {
 /*-----------contact--------------*/
 
 .contact-wrap{
-  height: 100%;
-  width: 100%;
-  position: relative;
-  background-color: #47FF57;
+  height: 100vh;
+  padding: 60px 15px 0px 15px;
+}
+
+.contact-container {
+  padding: 15% 0 0 0;
+  text-align: center;
+}
+
+#contacttext {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  margin: auto;
+  font-size: 45px;
+}
+
+.contact-container p {
+  font-family: 'Oswald', sans-serif;
+  margin: 50px auto;
+  font-size: 20px;
 }

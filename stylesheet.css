@@ -272,13 +272,26 @@ span#n2 {
   margin: auto;
   padding: 50px 0 80px 0;
   overflow: hidden;
+  text-align: center;
 }
 
 .video-title {
   position: relative;
   z-index: 1;
-  text-align: center;
-  margin: 10px 0 10px 0;
+  margin: 40px 0 10px 0;
   font-family: 'Lobster',cursive;
   font-size: 50px;
+}
+
+.video-container iframe{
+  margin: 50px auto;
+}
+
+/*-----------contact--------------*/
+
+.contact-wrap{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-color: #47FF57;
 }

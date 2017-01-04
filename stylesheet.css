@@ -167,6 +167,38 @@ span#n2 {
 	color: #eee;
 }
 
+
+
+/*-----------ui--------------*/
+
+
+.ui-container {
+      position: relative;
+      height: 110vh;
+      background-color: #1d2029;
+}
+
+.ui-container h2{
+  color: white;
+  width: 100%;
+  margin: 85px auto;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  font-family: 'Lobster',cursive;
+  font-size: 50px;
+}
+
+#ui{
+  top: 25%;
+  position: relative;
+  max-width: 80%;
+  margin: auto;
+}
+
+
+
+
 /*-----------BOOK--------------*/
 
 
@@ -189,7 +221,7 @@ span#n2 {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 10px 0 10px 0;
+  margin: 50px 0 10px 0;
   font-family: 'Lobster',cursive;
   font-size: 50px;
 }
@@ -203,10 +235,14 @@ span#n2 {
   font-size: 15px;
 }
 
-#book img, #photos img{
+#book img, #photos img, #ui img{
   width: 100%;
 }
 
+
+.bookspacer {
+  height: 100px;
+}
 /*-----------photos--------------*/
 
 
@@ -280,14 +316,19 @@ span#n2 {
 }
 
 .video-container iframe{
-  margin: 50px auto;
+  margin: 60px auto;
+  border: 3px solid black;
 }
 
+.spacer {
+  height: 65px;
+}
 /*-----------contact--------------*/
 
 .contact-wrap{
   height: 100vh;
   padding: 60px 15px 0px 15px;
+  background: #FFF;
 }
 
 .contact-container {

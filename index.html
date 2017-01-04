@@ -56,10 +56,23 @@ $(function() {
     });
   });
 
-  // PHOTOGALLERY
-  // PHOTOGALLERY
-  // PHOTOGALLERY
-  // PHOTOGALLERY
+  // UI
+  // UI
+    $(document).ready(function(){
+    $('#ui').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: false,
+      dots: false,
+      infinite: true,
+      speed: 200,
+      fade: true,
+      cssEase: 'linear'
+    });
+  });
+
+  // book
+  // book
     $(document).ready(function(){
     $('#book').slick({
       dots: true,
@@ -119,6 +132,32 @@ $(function() {
       </div>
     </div>
 
+    <!--//////UI DESIGN///////-->
+
+  <div class="ui-container">
+    <h2>UI Design</h2>
+    <div id="ui">
+      <div>
+        <img src="img/ui/ui1.png">
+      </div>
+      <div>
+        <img src="img/ui/ui2.png">
+      </div>
+      <div>
+        <img src="img/ui/ui3.png">
+      </div>
+      <div>
+        <img src="img/ui/ui4.jpg">
+      </div>
+      <div>
+        <img src="img/ui/ui5.png">
+      </div>
+      <div>
+        <img src="img/ui/ui6.png">
+      </div>
+    </div>
+  </div>
+
     <!--//////BUCH///////-->
   <div class="book-wrap">
     <div class="book-container">
@@ -148,6 +187,10 @@ $(function() {
             <img src="img/book/book7.jpg">
           </div>
         </div>
+
+      <div class="bookspacer">
+      </div>
+
       </div>
   </div>
 
@@ -182,9 +225,13 @@ $(function() {
   <div class="video-wrap">
     <div class="video-container">
       <h2 class="video-title">Videos</h2>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/sKSf8EJBpkc?rel=0" frameborder="0" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/lqJNU1tNr5U?rel=0" frameborder="0" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/GbxBtPEOOhc?rel=0" frameborder="0" allowfullscreen></iframe>
+
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/sKSf8EJBpkc?rel=0"  allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/lqJNU1tNr5U?rel=0" allowfullscreen></iframe>
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/GbxBtPEOOhc?rel=0" allowfullscreen></iframe>
+
+       <div class="spacer"></div>
+
     </div>
   </div>
 

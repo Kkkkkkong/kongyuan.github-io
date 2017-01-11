@@ -104,7 +104,7 @@ span#n2 {
 .design-container{
   position: relative;
 	max-width: 80%;
-	margin: 6% auto;
+	margin: 60px auto 90px auto;
 	padding: 20px;
 	overflow: hidden;
 }

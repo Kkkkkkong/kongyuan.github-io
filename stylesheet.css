@@ -144,6 +144,13 @@ span#n2 {
   justify-content: center;
 }
 
+@media only screen and (max-width: 768px) {
+
+  .lightbox-gallery a {
+    flex-basis: 100%;
+  }
+}
+
 .design-img{
   max-width: 210px;
 }

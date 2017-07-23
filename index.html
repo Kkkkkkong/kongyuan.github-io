@@ -23,12 +23,11 @@
       'resizeDuration': 200,
       'showImageNumberLabel': false
     })
-</script>
-  <script>
   // UI
   // UI
     $(document).ready(function(){
-    $('#ui').slick({
+
+    $('#calendar').slick({
       autoplay: true,
       autoplaySpeed: 2000,
       arrows: true,
@@ -38,6 +37,17 @@
       fade: true,
       cssEase: 'linear'
     });
+    $('#bank').slick({
+      autoplay: true,
+      autoplaySpeed: 2000,
+      arrows: true,
+      dots: false,
+      infinite: true,
+      speed: 200,
+      fade: true,
+      cssEase: 'linear'
+    });
+
   });
 
   // book
@@ -97,52 +107,44 @@
           <h2 class="design-title">Graphics</h2>
           <div class="lightbox-gallery">
 
-            <a href="img/designs/1.jpg" data-lightbox="portfolio" data-title="New Zodiac Symbol">
-              <div class="design-img">
-              <img src="img/designs/1.jpg"/>
+            <a href="img/designs/26.jpg" data-lightbox="portfolio" data-title="Made for Meditaiton"><div class="design-img">
+              <img src="img/designs/26.jpg"/>
             </div></a>
 
-            <a href="img/designs/2.png" data-lightbox="portfolio" data-title="Smarthome System Icons">
-              <div class="design-img">
-              <img src="img/designs/2.png"/>
+            <a href="img/designs/25.gif" data-lightbox="portfolio" data-title="Atmen Gif"><div class="design-img">
+              <img src="img/designs/25.gif"/>
             </div></a>
 
-            <a href="img/designs/3.jpg" data-lightbox="portfolio" data-title="All the posible logos of mine :)">
-              <div class="design-img">
-              <img src="img/designs/3.jpg"/>
+            <a href="img/designs/24.gif" data-lightbox="portfolio" data-title="7mind Gif"><div class="design-img">
+              <img src="img/designs/24.gif"/>
             </div></a>
 
-            <a href="img/designs/4.jpg" data-lightbox="portfolio" data-title="Circle! Suqare! Triangle!">
-              <div class="design-img">
-              <img src="img/designs/4.jpg"/>
+            <a href="img/designs/23.jpg" data-lightbox="portfolio" data-title="Urban Fit Days Gutschein"><div class="design-img">
+              <img src="img/designs/23.jpg"/>
             </div></a>
 
-            <a href="img/designs/5.png" data-lightbox="portfolio" data-title=""><div class="design-img">
-              <img src="img/designs/5.png"/>
+            <a href="img/designs/22.jpg" data-lightbox="portfolio" data-title="Ostern Gutschein"><div class="design-img">
+              <img src="img/designs/22.jpg"/>
             </div></a>
 
-            <a href="img/designs/6.png" data-lightbox="portfolio" data-title="Black Milk Logo">
-              <div class="design-img">
-              <img src="img/designs/6.png"/>
+            <a href="img/designs/21.png" data-lightbox="portfolio" data-title="Glow Beauty Bag 2"><div class="design-img">
+              <img src="img/designs/21.png"/>
             </div></a>
 
-            <a href="img/designs/7.png" data-lightbox="portfolio" data-title="Black Milk Card">
-              <div class="design-img">
-              <img src="img/designs/7.png"/>
+            <a href="img/designs/20.png" data-lightbox="portfolio" data-title="Glow Beauty Bag 1"><div class="design-img">
+              <img src="img/designs/20.png"/>
             </div></a>
 
-            <a href="img/designs/7s.png" data-lightbox="portfolio" data-title="Logo - English Teaching Centre">
-              <div class="design-img">
-              <img src="img/designs/7s.png"/>
+            <a href="img/designs/18.jpg" data-lightbox="portfolio" data-title="Glow Beauty Convention Poster 2"><div class="design-img">
+              <img src="img/designs/18.jpg"/>
             </div></a>
 
-            <a href="img/designs/8.png" data-lightbox="portfolio" data-title="Poster for France - Frankfurt Book Fair">
-              <div class="design-img">
-              <img src="img/designs/8.png"/>
+            <a href="img/designs/17.jpg" data-lightbox="portfolio" data-title="Glow Beauty Convention Poster 1"><div class="design-img">
+              <img src="img/designs/17.jpg"/>
             </div></a>
 
-            <a href="img/designs/9.png" data-lightbox="portfolio" data-title="Business Card"><div class="design-img">
-              <img src="img/designs/9.png"/>
+            <a href="img/designs/16.png" data-lightbox="portfolio" data-title="Album Cover"><div class="design-img">
+              <img src="img/designs/16.png"/>
             </div></a>
 
             <a href="img/designs/11.jpg" data-lightbox="portfolio" data-title="China Baby">
@@ -150,44 +152,47 @@
               <img src="img/designs/11.jpg"/>
             </div></a>
 
-            <a href="img/designs/12.png" data-lightbox="portfolio" data-title="Album Cover 1"><div class="design-img">
-              <img src="img/designs/12.png"/>
+            <a href="img/designs/9.png" data-lightbox="portfolio" data-title="Business Card"><div class="design-img">
+              <img src="img/designs/9.png"/>
             </div></a>
 
-            <a href="img/designs/13.png" data-lightbox="portfolio" data-title="Album Cover 2"><div class="design-img">
-              <img src="img/designs/13.png"/>
+            <a href="img/designs/7s.png" data-lightbox="portfolio" data-title="Logo - English Teaching Centre">
+              <div class="design-img">
+              <img src="img/designs/7s.png"/>
             </div></a>
 
-            <a href="img/designs/14.png" data-lightbox="portfolio" data-title="Album Cover 3"><div class="design-img">
-              <img src="img/designs/14.png"/>
+            <a href="img/designs/7.png" data-lightbox="portfolio" data-title="Black Milk Card">
+              <div class="design-img">
+              <img src="img/designs/7.png"/>
             </div></a>
 
-            <a href="img/designs/15.png" data-lightbox="portfolio" data-title="Album Cover 4"><div class="design-img">
-              <img src="img/designs/15.png"/>
+            <a href="img/designs/6.png" data-lightbox="portfolio" data-title="Black Milk Logo">
+              <div class="design-img">
+              <img src="img/designs/6.png"/>
             </div></a>
 
-            <a href="img/designs/16.png" data-lightbox="portfolio" data-title="Album Cover 5"><div class="design-img">
-              <img src="img/designs/16.png"/>
+            <a href="img/designs/5.png" data-lightbox="portfolio" data-title=""><div class="design-img">
+              <img src="img/designs/5.png"/>
             </div></a>
 
-            <a href="img/designs/17.jpg" data-lightbox="portfolio" data-title="Glow Beauty Convention Poster 1"><div class="design-img">
-              <img src="img/designs/17.jpg"/>
+            <a href="img/designs/4.jpg" data-lightbox="portfolio" data-title="Circle! Suqare! Triangle!">
+              <div class="design-img">
+              <img src="img/designs/4.jpg"/>
             </div></a>
 
-            <a href="img/designs/18.jpg" data-lightbox="portfolio" data-title="Glow Beauty Convention Poster 2"><div class="design-img">
-              <img src="img/designs/18.jpg"/>
+            <a href="img/designs/3.jpg" data-lightbox="portfolio" data-title="All the posible logos of mine :)">
+              <div class="design-img">
+              <img src="img/designs/3.jpg"/>
             </div></a>
 
-            <a href="img/designs/19.jpg" data-lightbox="portfolio" data-title="Glow Beauty Convention Poster 3"><div class="design-img">
-              <img src="img/designs/19.jpg"/>
+            <a href="img/designs/2.png" data-lightbox="portfolio" data-title="Smarthome System Icons">
+              <div class="design-img">
+              <img src="img/designs/2.png"/>
             </div></a>
 
-            <a href="img/designs/20.png" data-lightbox="portfolio" data-title="Glow Beauty Bag 1"><div class="design-img">
-              <img src="img/designs/20.png"/>
-            </div></a>
-
-            <a href="img/designs/21.png" data-lightbox="portfolio" data-title="Glow Beauty Bag 2"><div class="design-img">
-              <img src="img/designs/21.png"/>
+            <a href="img/designs/1.jpg" data-lightbox="portfolio" data-title="New Zodiac Symbol">
+              <div class="design-img">
+              <img src="img/designs/1.jpg"/>
             </div></a>
 
           </div>
@@ -197,7 +202,7 @@
 
   <div class="ui-container">
     <h2>UI Design</h2>
-    <div id="ui">
+    <div id="calendar" class="carousel">
       <div>
         <img src="img/ui/ui1.png">
       </div>
@@ -215,6 +220,38 @@
       </div>
       <div>
         <img src="img/ui/ui6.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="ui-container-2">
+    <div id="bank" class="carousel">
+      <div>
+        <img src="img/ui/bank1.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank2.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank3.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank4.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank5.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank6.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank7.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank8.jpg">
+      </div>
+      <div>
+        <img src="img/ui/bank9.jpg">
       </div>
     </div>
   </div>

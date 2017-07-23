@@ -85,7 +85,7 @@ span#n2 {
 }
 
 .header-text {
-  margin-bottom: 6em;
+  margin-bottom:4em;
   position: absolute;
   bottom: 0;
   z-index: 1;
@@ -95,7 +95,7 @@ span#n2 {
   font-family: 'Oswald', sans-serif;
   margin: auto;
   padding: 0px 0px 0px 45px;
-  font-size: 58px;
+  font-size: 45px;
   color: white;
 }
 
@@ -123,7 +123,8 @@ span#n2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .lightbox-gallery div > img {
@@ -134,6 +135,13 @@ span#n2 {
 .lightbox-gallery div {
   margin: 40px;
   flex-basis: 200px;
+}
+
+.lightbox-gallery a {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: 33.333%;
+  justify-content: center;
 }
 
 .design-img{
@@ -149,6 +157,12 @@ span#n2 {
   overflow: hidden;
 }
 
+.ui-container-2 {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+
 .ui-container h2{
   color: white;
   text-shadow: #5d5d5d 3px -17px;
@@ -160,9 +174,14 @@ span#n2 {
   font-size: 50px;
 }
 
-#ui{
+#calendar{
   max-width: 80%;
-  margin: 0 auto 130px auto;
+  margin: 0px auto 130px auto;
+}
+
+#bank{
+  max-width: 80%;
+  margin: 100px auto 130px auto;
 }
 
 
@@ -205,7 +224,7 @@ span#n2 {
   font-size: 15px;
 }
 
-#book img, #photos img, #ui img{
+#book img, #photos img, .carousel img {
   width: 100%;
 }
 

@@ -95,7 +95,7 @@ span#n2 {
   font-family: 'Oswald', sans-serif;
   margin: auto;
   padding: 0px 0px 0px 45px;
-  font-size: 45px;
+  font-size: 38px;
   color: white;
 }
 
@@ -151,14 +151,32 @@ span#n2 {
   }
 }
 
-.design-img{
+.design-img,
+.design-gif
+{
   max-width: 210px;
+  box-sizing: border-box;
 }
 
+.design-gif
+{
+  border: 1px solid #DDDED9;
+}
 
 /*-----------ui--------------*/
 
+.web-container {
+  background-color: #0400FF;
+  overflow: hidden;
+}
 
+.web-container .slick-prev:before,
+.web-container .slick-next:before{
+  color: #8C8C8C;
+}
+
+
+.nl-container,
 .ui-container {
   background-color: #1d2029;
   overflow: hidden;
@@ -170,7 +188,8 @@ span#n2 {
 }
 
 
-.ui-container h2{
+.ui-container h2,
+.web-container h2{
   color: white;
   text-shadow: #5d5d5d 3px -17px;
   width: 100%;
@@ -181,16 +200,12 @@ span#n2 {
   font-size: 50px;
 }
 
-#calendar{
-  max-width: 80%;
-  margin: 0px auto 130px auto;
-}
 
-#bank{
+
+#web1 ,#calendar,#bank, #nl1{
   max-width: 80%;
   margin: 100px auto 130px auto;
 }
-
 
 
 
@@ -204,12 +219,18 @@ span#n2 {
     position: relative;
 }
 
+
 .book-container{
   position: relative;
 	max-width: 75%;
 	margin:auto;
-	padding: 50px 0 80px 0;
+
 	overflow: hidden;
+}
+
+.book-container .slick-prev:before,
+.book-container .slick-next:before{
+  color: #8C8C8C;
 }
 
 .book-title{
@@ -226,12 +247,12 @@ span#n2 {
   position: relative;
   z-index: 1;
   text-align: center;
-  margin: 10px 0 60px 0;
+  margin: 90px 0 56px 0;
   font-family: 'Oswald', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
 }
 
-#book img, #photos img, .carousel img {
+#book img, #book2 img, #book3 img, #photos img, .carousel img {
   width: 100%;
 }
 
@@ -292,7 +313,7 @@ span#n2 {
   height: 100%;
   width: 100%;
   position: relative;
-  background-color: #47FF57;
+  background-color: #2EE63D;
 }
 
 .video-container {
@@ -337,7 +358,7 @@ span#n2 {
   font-family: 'Oswald', sans-serif;
   font-weight: bolder;
   margin: auto;
-  font-size: 48px;
+  font-size: 38px;
 }
 
 a {
@@ -354,7 +375,7 @@ a:hover
 #emaillink {
   font-family: 'Oswald', sans-serif;
   margin: 50px auto;
-  font-size: 21px;
+  font-size: 18px;
   color: #ff0081;
   border-bottom: ;
 }
